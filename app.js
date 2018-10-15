@@ -2,6 +2,9 @@ const createError = require('http-errors');
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const mongoose = require('mongoose');
+
+require('./config-database/connection-mongo').connection(mongoose, logger);
 
 const indexRouter = require('./routes/index');
 

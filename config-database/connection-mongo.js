@@ -5,7 +5,7 @@ class Connection {
             "env": {
                 "MONGO_USER": "earthworm",
                 "MONGO_PASSWORD": "earthworm_p%40ss87",
-                "MONGO_DB": "events-react-dev"
+                "MONGO_DB": "cooking-corner"
             }
         };
 
